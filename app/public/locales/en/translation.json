@@ -1,3 +1,5 @@
 {
-    "whoWeAre" : "Who we are"
+  "aboutUs": "Who we are",
+  "services": "What we do",
+  "gallery": "Photos"
 }

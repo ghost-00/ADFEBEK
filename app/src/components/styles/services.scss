@@ -1,0 +1,32 @@
+/* Import parent styles */ 
+@import url("./styles.scss"); 
+
+.services {
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    max-height: 500px;
+    background: #eee;
+    overflow: hidden;
+  }
+  
+  @media (max-width:900px) {
+    .services{
+      height: 64vh;
+    }
+  }
+  
+  .box {
+    float: left;
+    width: 25%;
+    height: 100%;
+    color: #eee;
+  }
+  
+  .red-box {
+    background: var(--secondary);
+  }
+  
+  .green-box {
+    background: var(--primary);
+  }
